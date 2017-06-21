@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Test">
+        <attr name="txt" format="string" />
+        <attr name="txt_color" format="reference|color" />
+        <attr name="txt_style">
+            <flag name="style_bold" value="1" />
+            <flag name="style_italc" value="2" />
+            <flag name="style_strikeThru" value="4" />
+        </attr>
+        <attr name="txt_size">
+            <enum name="a" value="10" />
+            <enum name="b" value="20" />
+            <enum name="c" value="30" />
+        </attr>
+    </declare-styleable>
+</resources>
